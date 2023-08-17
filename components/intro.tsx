@@ -14,7 +14,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section className="border border-1 border-red-500 mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
@@ -69,7 +69,11 @@ export default function Intro() {
         >
           <BsLinkedin />
         </a>
-        <a className="cursor-pointer flex items-center gap-2 bg-white p-4 text-[1.35rem] text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition border border-black/10">
+        <a
+          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-[1.35rem] text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition border border-black/10"
+          href="https://github.com/AleksandarI01"
+          target="_blank"
+        >
           <FaGithubSquare />
         </a>
       </motion.div>
