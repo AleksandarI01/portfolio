@@ -1,10 +1,9 @@
 "use client";
 
-import React, {useEffect} from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
-import { useInView } from "react-intersection-observer";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionVisibility } from "@/lib/hooks";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -16,16 +15,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
-  const { setActiveSection } = useActiveSectionContext();
-
-  useEffect(() => {
-    if (inView) {
-      setActiveSection("Home");
-    }
-  }, [inView, setActiveSection]);
+  const {ref} = useSectionVisibility('Home', 0.5);
 
   return (
     <section
