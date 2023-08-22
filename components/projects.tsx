@@ -11,7 +11,7 @@ export default function Projects() {
   const { ref } = useSectionVisibility("Projects", 0.5);
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28">
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionTitle>My Projects</SectionTitle>
       <div>
         {projectsData.map((project, index) => (
