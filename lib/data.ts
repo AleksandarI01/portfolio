@@ -67,18 +67,6 @@ export const projectsData = [
     tags: ["React", "Django", "Postgres", "Docker"],
     imageUrl: dayventureImg,
   },
-  {
-    title: "TESTT",
-    description: "Final Group Project from the Full-Stack Bootcamp I visited.",
-    tags: ["React", "Django", "Postgres", "Docker"],
-    imageUrl: dayventureImg,
-  },
-  {
-    title: "TESTT",
-    description: "Final Group Project from the Full-Stack Bootcamp I visited.",
-    tags: ["React", "Django", "Postgres", "Docker"],
-    imageUrl: dayventureImg,
-  },
 ] as const;
 
 export const skillsData = [
