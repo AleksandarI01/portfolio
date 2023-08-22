@@ -33,14 +33,15 @@ export const experiencesData = [
   {
     title: "Bachelor of Software Engineering, Software and Data Engineering",
     location: "Belgrade, Serbia",
-    description: "I graduated with an average of 8.38",
+    description: "I graduated with an average of 8.38.",
     icon: React.createElement(LuGraduationCap),
     date: "October 2017 - April 2022",
   },
   {
     title: "Constructor Learning Full-Stack Bootcamp",
     location: "Zurich, Switzerland",
-    description: "",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, impedit libero deleniti ad quas, deserunt autem, eveniet in natus voluptate maxime suscipit quaerat numquam dicta itaque enim mollitia doloremque nesciunt.",
     icon: React.createElement(LuGraduationCap),
     date: "May 2023 - July 2023",
   },
