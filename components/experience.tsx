@@ -4,6 +4,8 @@ import React from "react";
 import SectionTitle from "./section-title";
 import { experiencesData } from "@/lib/data";
 
+import { useSectionVisibility } from "@/lib/hooks";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,8 +13,14 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 export default function Experience() {
+  const { ref } = useSectionVisibility("Experience");
+
   return (
-    <section id="experience" className="w-full scroll-mt-28 mb-28 sm:mb-40">
+    <section
+      id="experience"
+      ref={ref}
+      className="w-full scroll-mt-28 mb-28 sm:mb-40"
+    >
       <SectionTitle>My experience</SectionTitle>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
