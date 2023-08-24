@@ -17,7 +17,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   const { ref } = useSectionVisibility("Home", 0.5);
-  const {setActiveSection, setTimePassedClick} = useActiveSectionContext();
+  const { setActiveSection, setTimePassedClick } = useActiveSectionContext();
 
   return (
     <section
@@ -69,7 +69,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          className="group cursor-pointer flex items-center gap-2 bg-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack"
+          className="group cursor-pointer flex items-center gap-2 bg-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download={true}
         >
@@ -77,14 +77,14 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:opacity-100 transition" />
         </a>
         <a
-          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-gray-50"
           href="https://linkedin.com/in/aleksandar-ilic-267a49260"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-[1.35rem] text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-[1.35rem] text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-gray-50"
           href="https://github.com/AleksandarI01"
           target="_blank"
         >
