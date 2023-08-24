@@ -61,12 +61,14 @@ export const projectsData = [
     description: "Final Group Project from the Full-Stack Bootcamp I visited.",
     tags: ["React", "Django", "Postgres", "Docker"],
     imageUrl: dayventureImg,
+    link: "https://dayventure.propulsion-learn.ch/",
   },
   {
     title: "TESTT",
     description: "Final Group Project from the Full-Stack Bootcamp I visited.",
     tags: ["React", "Django", "Postgres", "Docker"],
     imageUrl: dayventureImg,
+    link: "",
   },
 ] as const;
 
