@@ -18,6 +18,7 @@ export default function Projects() {
           <Project key={index} {...project} />
         ))}
       </div>
+      <p className="text-center pt-5 font-bold">more to come ...</p>
     </section>
   );
 }

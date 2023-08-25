@@ -19,14 +19,14 @@ export default function About() {
     >
       <SectionTitle>About me</SectionTitle>
       <p className="mb-3">
-        Debitis, impedit libero deleniti ad quas, deserunt autem, eveniet in
-        natus voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        After earning my Bachelor's degree within the study program "Software
+        and Data Engineering", I decided to persue my passion for programming. I
+        enrolled in a Full-Stack Web Development Bootcamp in Zürich. I always
+        strive for improving my coding skills and to learn new technologies.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-        impedit libero deleniti ad quas, deserunt autem, eveniet in natus
-        voluptate maxime suscipit quaerat numquam dicta itaque enim mollitia
-        doloremque nesciunt.
+        In my free time I like hiking, cooking, playing video games and going
+        out with friends.
       </p>
     </motion.section>
   );

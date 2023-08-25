@@ -48,10 +48,9 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
+                boxShadow: "none",
                 background:
-                  colorTheme === "light"
-                    ? "white"
-                    : "rgba(255, 255, 255, 0.15)",
+                  colorTheme === "light" ? "#e5e7eb" : "rgb(65, 70, 82)",
                 fontSize: "1.5rem",
               }}
             >

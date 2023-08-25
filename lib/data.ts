@@ -1,6 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import dayventureImg from "@/public/dayventure.png";
+import underConstructionImg from "@/public/underConstruction.png";
 
 export const links = [
   {
@@ -31,9 +32,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelor of Software Engineering, Software and Data Engineering",
+    title: "Bachelor of Software Engineering, University Singidunum",
     location: "Belgrade, Serbia",
-    description: "I graduated with an average of 8.38.",
+    description:
+      'Successfully completed my bachelor studies within the study program "Software and Data Engineering" with a total of 240 ECTS credits and the grade point average of 8.38/10.',
     icon: React.createElement(LuGraduationCap),
     date: "October 2017 - April 2022",
   },
@@ -41,15 +43,15 @@ export const experiencesData = [
     title: "Constructor Learning Full-Stack Bootcamp",
     location: "Zurich, Switzerland",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, impedit libero deleniti ad quas, deserunt autem, eveniet in natus voluptate maxime suscipit quaerat numquam dicta itaque enim mollitia doloremque nesciunt.",
+      "Successfully completed this bootcamp with a total of around 480 hours in the field of Full-Stack Web Development.",
     icon: React.createElement(LuGraduationCap),
     date: "May 2023 - July 2023",
   },
   {
-    title:
-      "Master of Science in Informatics, Contemporary Information Technology",
+    title: "Master of Science in Informatics, University Singidunum",
     location: "Belgrade, Serbia",
-    description: "This is the description for the master studies.",
+    description:
+      'Upon successful graduation, I will obtain a total of 60 ECTS credits within the study program "Contemporary Information Technologies".',
     icon: React.createElement(LuGraduationCap),
     date: "November 2022 - present",
   },
@@ -58,16 +60,18 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "DayVenture",
-    description: "Final Group Project from the Full-Stack Bootcamp I visited.",
-    tags: ["React", "Django", "Postgres", "Docker"],
+    description:
+      "Final Group Project from the Full-Stack Bootcamp I attended. Discover day trips curated by local experts or create your own travel itinerary with your friends.",
+    tags: ["React", "Django", "Postgres", "Docker", "Google Maps API"],
     imageUrl: dayventureImg,
     link: "https://dayventure.propulsion-learn.ch/",
   },
   {
-    title: "TESTT",
-    description: "Final Group Project from the Full-Stack Bootcamp I visited.",
-    tags: ["React", "Django", "Postgres", "Docker"],
-    imageUrl: dayventureImg,
+    title: "Online Shop",
+    description:
+      "Frontend Project about an Online Shop for clothing products. I am right now working on it. Stay tuned for updates.",
+    tags: ["React", "Tailwind CSS", "..."],
+    imageUrl: underConstructionImg,
     link: "",
   },
 ] as const;
@@ -75,6 +79,7 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "SASS",
   "Tailwind",
   "Python",
   "Java",

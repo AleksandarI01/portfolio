@@ -47,8 +47,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
       >
-        Hello, I am Aleksandar Ilic. I love to code. I am a frontend web
-        developer. Please look at my portfolio and the projects i created!
+        Hello, I am <span className="font-bold">Aleksandar Ilic</span>. I am a{" "}
+        <span className="font-bold">frontend developer</span> and love to create
+        sites & apps. Please take a look at my portfolio and the projects i have
+        created and feel free to <span className="italic">contact me</span>!
       </motion.p>
 
       <motion.div
@@ -70,7 +72,7 @@ export default function Intro() {
         </Link>
         <a
           className="group cursor-pointer flex items-center gap-2 bg-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/CV Aleksandar Ilic.pdf"
           download={true}
         >
           Download CV{" "}
