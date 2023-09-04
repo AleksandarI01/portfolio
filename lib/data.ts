@@ -64,7 +64,7 @@ export const projectsData = [
       "Final Group Project from the Full-Stack Bootcamp I attended. Discover day trips curated by local experts or create your own travel itinerary with your friends.",
     tags: ["React", "Django", "Postgres", "Docker", "Google Maps API"],
     imageUrl: dayventureImg,
-    link: "https://dayventure.propulsion-learn.ch/",
+    link: "https://github.com/AleksandarI01/dayventure",
   },
   {
     title: "Online Shop",
