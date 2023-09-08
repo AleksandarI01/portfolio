@@ -1,7 +1,8 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import dayventureImg from "@/public/dayventure.png";
-import underConstructionImg from "@/public/underConstruction.png";
+import foodDeliveryImg from "@/public/foodDelivery.png";
+// import underConstructionImg from "@/public/underConstruction.png";
 
 export const links = [
   {
@@ -67,12 +68,12 @@ export const projectsData = [
     link: "https://github.com/AleksandarI01/dayventure",
   },
   {
-    title: "Online Shop",
+    title: "Food Delivery Shop",
     description:
-      "Frontend Project about an Online Shop for clothing products. I am right now working on it. Stay tuned for updates.",
-    tags: ["React", "Tailwind CSS", "..."],
-    imageUrl: underConstructionImg,
-    link: "",
+      "Frontend Project about a Food Delivery App. I am right now working on it. Stay tuned for updates.",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: foodDeliveryImg,
+    link: "https://github.com/AleksandarI01/food-delivery-app",
   },
 ] as const;
 
