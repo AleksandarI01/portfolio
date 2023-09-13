@@ -65,7 +65,8 @@ export const projectsData = [
       "Final Group Project from the Full-Stack Bootcamp I attended. Discover day trips curated by local experts or create your own travel itinerary with your friends.",
     tags: ["React", "Django", "Postgres", "Docker", "Google Maps API"],
     imageUrl: dayventureImg,
-    link: "https://github.com/AleksandarI01/dayventure",
+    link: "https://dayventure.net/",
+    gitLink: "https://github.com/AleksandarI01/dayventure",
   },
   {
     title: "Food Delivery Shop",
@@ -74,6 +75,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: foodDeliveryImg,
     link: "https://github.com/AleksandarI01/food-delivery-app",
+    gitLink: "https://github.com/AleksandarI01/food-delivery-app",
   },
 ] as const;
 
