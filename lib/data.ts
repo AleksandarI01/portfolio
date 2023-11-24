@@ -2,7 +2,8 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import dayventureImg from "@/public/dayventure.png";
 import foodDeliveryImg from "@/public/foodDelivery.png";
-// import underConstructionImg from "@/public/underConstruction.png";
+//import underConstructionImg from "@/public/underConstruction.png";
+import underConstructionImgTwo from "@/public/underConstructionTwo.png";
 
 export const links = [
   {
@@ -36,7 +37,7 @@ export const experiencesData = [
     title: "Bachelor of Software Engineering, University Singidunum",
     location: "Belgrade, Serbia",
     description:
-      'Successfully completed my bachelor studies within the study program "Software and Data Engineering" with a total of 240 ECTS credits and the grade point average of 8.38/10.',
+      'Successfully completed my Bachelor studies within the study program "Software and Data Engineering" with a total of 240 ECTS credits and the grade point average of 8.38/10.',
     icon: React.createElement(LuGraduationCap),
     date: "October 2017 - April 2022",
   },
@@ -71,11 +72,20 @@ export const projectsData = [
   {
     title: "Food Delivery Shop",
     description:
-      "Frontend Project about a Food Delivery App. I am right now working on it. Stay tuned for updates.",
+      "Frontend Project about a Food Delivery App (fully responsive).",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: foodDeliveryImg,
     link: "https://github.com/AleksandarI01/food-delivery-app",
     gitLink: "https://github.com/AleksandarI01/food-delivery-app",
+  },
+  {
+    title: "Blog App",
+    description:
+      "Full-Stack Blog App. Write and publish blogs or read stories from other users and comment on them. NOTE: I am right now working on it.",
+    tags: ["React", "Next.js", "Auth.js", "MongoDB"],
+    imageUrl: underConstructionImgTwo,
+    link: "https://github.com/AleksandarI01/blog-app",
+    gitLink: "",
   },
 ] as const;
 

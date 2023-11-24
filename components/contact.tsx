@@ -33,7 +33,10 @@ export default function Contact() {
       <SectionTitle>Contact Me</SectionTitle>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         You can reach out to me using this form or by sending an email to:{" "}
-        <a className="underline" href="mailto:aleks.i6@hotmail.com">
+        <a
+          className="underline transition hover:text-gray-900 dark:text-gray-500 dark:hover:text-gray-300"
+          href="mailto:aleks.i6@hotmail.com"
+        >
           aleks.i6@hotmail.com
         </a>
       </p>

@@ -47,10 +47,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
       >
-        Hello, I am <span className="font-bold">Aleksandar Ilic</span>. I am a{" "}
-        <span className="font-bold">frontend developer</span> and love to create
-        sites & apps. Please take a look at my portfolio and the projects i have
-        created and feel free to <span className="italic">contact me</span>!
+        Hello, I am <span className="font-bold">Aleksandar Ilic</span>. <br />I
+        am a <span className="font-bold">full-stack developer</span> and love to
+        create sites & apps. Please take a look at my portfolio, my github
+        profile and the projects I have created and feel free to{" "}
+        <span className="font-bold">contact me</span>!
       </motion.p>
 
       <motion.div
@@ -79,14 +80,14 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:opacity-100 transition" />
         </a>
         <a
-          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-gray-50"
+          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-gray-50 hover:rotate-180"
           href="https://linkedin.com/in/aleksandar-ilic-267a49260"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-[1.35rem] text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-gray-50"
+          className="cursor-pointer flex items-center gap-2 bg-white p-4 text-[1.35rem] text-gray-700 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-gray-50 hover:rotate-180"
           href="https://github.com/AleksandarI01"
           target="_blank"
         >
