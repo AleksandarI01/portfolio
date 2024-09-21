@@ -1,5 +1,6 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
+// import { CgWorkAlt } from "react-icons/cg";
 import dayventureImg from "@/public/dayventure.png";
 import foodDeliveryImg from "@/public/foodDelivery.png";
 //import underConstructionImg from "@/public/underConstruction.png";
@@ -56,7 +57,7 @@ export const experiencesData = [
       'Upon successful graduation, I will obtain a total of 60 ECTS credits within the study program "Contemporary Information Technologies".',
     icon: React.createElement(LuGraduationCap),
     date: "November 2022 - present",
-  },
+  }
 ] as const;
 
 export const projectsData = [
@@ -95,17 +96,17 @@ export const skillsData = [
   "SASS",
   "Tailwind",
   "Python",
+  "C#",
   "Java",
   "JavaScript",
   "TypeScript",
+  "Angular",
   "React.js",
   "Redux.js",
   "Next.js",
   "Node.js",
   "PostgreSQL",
+  ".NET",
   "Django REST Framework",
-  "Docker",
-  "C",
-  "C++",
-  "C#",
+  "Docker"
 ] as const;
