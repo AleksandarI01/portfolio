@@ -25,8 +25,8 @@ export default function About() {
         strive for improving my coding skills and to learn new technologies.
       </p>
       <p>
-        In my free time I like hiking, cooking, playing video games and going
-        out with friends.
+        In my free time I like hiking, cooking, going
+        out with friends and work on personal coding projects.
       </p>
     </motion.section>
   );
